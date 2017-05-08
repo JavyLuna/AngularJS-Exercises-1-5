@@ -1,0 +1,15 @@
+<div class="container-fluid tab-container" align="center"> 
+    <div class="row panel-tab">
+        <div class="col-lg-12" >
+            <div class="row">
+                <h1>{{$ctrl.book.titulo}}</h1>
+                <img src="./public/img/{{$ctrl.book.img}}" alt="" class="img-responsive">
+                <p><strong>{{$ctrl.book.autor}}</strong></p>
+                <p class="text-justify">{{$ctrl.book.descripcion}}</p>
+                <a ui-sref="home">Volver</a> <span></span>
+                <p>Veces visitado: {{$ctrl.book.count}}</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+</div>
